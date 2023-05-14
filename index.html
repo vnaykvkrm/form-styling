@@ -10,7 +10,19 @@
     <div class="container">
         <h1>Better Form Inputs</h1>
         <form action="">
-            
+            <div class="input-wrapper">
+                <input type="text" class="form-input" id="firstname" autocomplete="given-name" placeholder="firstname">
+                <label for="firstname" class="form-label"> First Name</label>
+            </div>
+            <div class="input-wrapper">
+                <input type="text" class="form-input" id="lastname" autocomplete="family-name" placeholder="firstname">
+                <label for="lastname" class="form-label"> First Name</label>
+            </div>
+            <div class="input-wrapper">
+                <input type="email" class="form-input" id="email" autocomplete="email" placeholder="Email">
+                <label for="email" class="form-label"> Email</label>
+            </div>
+            <button type="submit" class="btn">Sign In</button>
         </form>
     </div>
     
